@@ -7,6 +7,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://vrabe.github.io',
-	base: 'astro-test',
+	base: '/astro-test',
 	integrations: [mdx(), sitemap()],
 });
